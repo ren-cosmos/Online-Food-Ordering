@@ -67,7 +67,7 @@
 #home {
     display: flex;
     flex-direction: column;
-    height: 868px;
+    height: 600px;
     padding: 5px 200px;
     justify-content: center;
     align-items: center;
@@ -80,7 +80,7 @@
     top: 0px;
     left: 0px;
     background: url("../img/bg.jpg") no-repeat center center/cover;
-    height: 100%;
+    height: 640px;
     width: 100%;
     z-index: -1;
     opacity: 0.9;
@@ -102,7 +102,6 @@
     #services{
         margin: 34px;
         display: flex;
-        border: 2px solid yellow;
     }
 
     #services .box{
@@ -119,6 +118,34 @@
         margin: auto;
     }
 
+    #client-section{
+        position: relative;
+        height: 400px;
+    }
+
+    #client-section::before{
+        content: "";
+        position: absolute;
+        background: url("../img/bg2.jpg");
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.2;
+    }
+
+    #clients img{
+        height: 128px;
+    }
+
+    .client-item{
+        padding: 34px
+    }
+
+    #clients{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 /* Utility Classes */
 .h-primary {
     padding: 13px;
