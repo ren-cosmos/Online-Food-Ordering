@@ -186,6 +186,11 @@ html{
     padding-bottom: 40px;
 }
 
+#contact-box input:hover,
+#contact-box textarea:hover {
+    border: 2px solid brown;
+}
+
 #contact::before {
     content: "";
     position: absolute;
@@ -250,6 +255,10 @@ footer {
     font-size: 1.5rem;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(165, 78, 78);
 }
 
 .center {
