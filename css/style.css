@@ -159,6 +159,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 /* Contact Section */
@@ -208,6 +209,12 @@ footer {
     padding: 9px 20px;
     position: relative;
     bottom: -203px;
+}
+
+#send{
+    margin: 0px;
+    margin-top: 15px;
+    margin-left: 10px;
 }
 
 /* Utility Classes */
